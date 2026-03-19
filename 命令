@@ -1,0 +1,17 @@
+ ImmortalWrt  
+
+启用 Docker 开机自启：
+
+/etc/init.d/dockerd enable
+
+立即启动 Docker 服务：
+
+/etc/init.d/dockerd start
+
+重启 Docker 服务：
+
+/etc/init.d/dockerd restart
+
+查看状态：
+
+/etc/init.d/dockerd status
